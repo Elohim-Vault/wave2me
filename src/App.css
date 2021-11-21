@@ -1,8 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
 .mainContainer {
   display: flex;
   justify-content: center;
+  text-align: center;
   width: 100%;
-  margin-top: 64px;
 }
 
 .dataContainer {
@@ -12,16 +20,28 @@
   max-width: 600px;
 }
 
-.header {
-  text-align: center;
+.title {
+  display: inline-flex;
+  align-items: center;
   font-size: 32px;
   font-weight: 600;
 }
 
-.bio {
-  text-align: center;
-  color: gray;
-  margin-top: 16px;
+.title > h1 {
+  margin-bottom: 10px;
+}
+
+.title > img {
+  width: 65px;
+  margin-right: 10px;
+}
+
+.header > h3 {
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #878787;
+  margin-bottom: 0px;
 }
 
 .waveButton {
@@ -30,5 +50,23 @@
   padding: 8px;
   border: 0;
   border-radius: 5px;
-  
+}
+
+.waveCounter > h2 {
+  margin-bottom: 5px;
+}
+
+.waveCounter > h3 {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+.lastWaves > h2 {
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
