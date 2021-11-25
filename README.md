@@ -1,11 +1,17 @@
-# buildspace Wave Portal 👋 
+# wave2me 👋 
 
 ### **Welcome!**
-To get started with this course, clone this repo and follow these commands:
+If you want to run this project locally clone the repository and follow the steps:
 
 1. Run `npm install` at the root of your directory
 2. Run `npm run start` to start the project
 3. Start coding!
 
-### **Questions?**
-Have some questions make sure you head over to your [buildspace Dashboard](https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b) and link your Discord account so you can get access to helpful channels and your instructor!
+### What is wave2me?
+
+A project [buildspace](https://app.buildspace.so/courses/CO02cf0f1c-f996-4f50-9669-cf945ca3fb0b) project who let web3 users send me a message using the Ethereum blockchain.
+
+### Technologies
+- React to build user interface;
+- Solidity to build the smart contract;
+- Ether.js to consume the smart contract;
